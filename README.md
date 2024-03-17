@@ -18,8 +18,6 @@ This project is designed to continuously refresh the dataset used by the NVIDIA 
 pip install selenium schedule
 ```
 
-3. Download the appropriate ChromeDriver for your system from [here](https://sites.google.com/a/chromium.org/chromedriver/downloads) and place it in the project directory.
-
 ## Usage
 
 1. Open the `Scrape.py` file and modify the `websites` and `file_names` lists to include the URLs and file names you want to scrape and save, respectively.
