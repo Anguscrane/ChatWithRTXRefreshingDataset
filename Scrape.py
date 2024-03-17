@@ -48,9 +48,6 @@ def scrape_and_save_visible_text(url, file_name):
 def main():
     # List of websites
     websites = [
-        "https://weather.com/weather/tenday/l/3853b5a1e1f11d964eac6711e835a2b9365b755f45a46490e815cfbcdc5d98b5",
-        "https://weather.com/weather/today/l/3853b5a1e1f11d964eac6711e835a2b9365b755f45a46490e815cfbcdc5d98b5",
-        "https://weather.com/weather/hourbyhour/l/3853b5a1e1f11d964eac6711e835a2b9365b755f45a46490e815cfbcdc5d98b5",
         "https://www.nytimes.com",
         "https://www.bbc.com",
         "https://www.cnn.com",
@@ -95,8 +92,7 @@ def main():
     ]
 
     # List of file names
-    file_names = ["Weather_10_Day", "Weather_Today", "Weather_Hourly", "NYT",
-                "BBC", "CNN", "TheGuardian_US", "WashingtonPost", "NASA", "WhiteHouse",
+    file_names = ["NYT", "BBC", "CNN", "TheGuardian_US", "WashingtonPost", "NASA", "WhiteHouse",
                 "CDC", "ArsTechnica", "Engadget", "TechCrunch", "Wired", "ScientificAmerican", "Reuters",
                 "NPR", "FoxNews", "WSJ", "LATimes", "ChicagoTribune", "ScienceDaily", "Nature", "Space",
                 "PopSci", "PopularMechanics", "Forbes", "Bloomberg", "CNBC", "Economist", "FT", "MayoClinic",
